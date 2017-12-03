@@ -11,5 +11,5 @@ Ubuntu 16.04.1 LTS
 * This sample code: security_key, logs_file, vendor_name, vendor_domain_url, vendor_logo_url, vendor_icon_url, line_contact_url,　service_term_url,service_mail
 
 ## Create a payment url to start
-https://<your.domain.com>/<app_path>/go2pay.php?oid=000000838&price=41400&uname=Test&key=5bf3dabb3aab6e72e9904fb03c4520be1843d2648562043fbeb434397529d336&dv=mobile
+https://<your.domain.com>/<app_path>/go2pay.php?oid=000000838&price=41400&uname=Test&key=<validation_value_gen_by_function spec_confirm() >&dv=mobile
  
