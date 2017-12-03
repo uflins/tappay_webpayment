@@ -207,7 +207,7 @@
         <input type="hidden" id="weboid" name="weboid" value="">
         <input type="hidden" id="authcode" name="authcode" value="">
         <input type="hidden" id="mills" name="mills" value="">
-        <input type="hidden" name="flag" value="<?php echo hash('sha256', $obj_cfgp["security_key"].$order_id );?>">
+        <input type="hidden" name="flag" value="<?php echo $tappay->spec_confirm($obj_cfgp["security_key"].$order_id);?>">
         <input type="hidden" id="status" name="status" value="">
     </form>
     </div>
